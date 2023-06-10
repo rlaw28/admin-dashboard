@@ -14,7 +14,27 @@
 .header{
     background-color: #9ca3af;
     grid-column: 2 / 4;
+    /* display: grid;
+    grid-template-columns: 2fr 1fr; */
 }
+
+.input-container > svg{
+    width: 35px;
+    margin-right: 10px;
+}
+
+.input-container{
+    display: flex;
+    flex-direction: row;
+    padding: 15px;
+}
+
+input{
+  border-radius: 25px ;
+  border-style: none;
+  width: 400px
+}
+
 
 .sidebar{
     background-color: #0284c7;
