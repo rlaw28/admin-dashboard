@@ -96,6 +96,20 @@ input{
     margin: 10px;
 }
 
+.director{
+    display: flex;
+    align-items: center;
+}
+.director > svg {
+    width: 25px;
+    color: white;
+    margin-right: 7px;
+}
+
+.change-color{
+    fill: white;
+}
+
 
 .content{
     background-color: #334155;
