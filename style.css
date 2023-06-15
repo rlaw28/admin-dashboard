@@ -76,7 +76,26 @@ input{
 .sidebar{
     background-color: #0284c7;
     grid-row: 1 / 4;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 60px 200px 150px;
 }
+
+#title{
+  padding: 10px;
+  color: white;
+}
+
+.sidebar > div{
+    /* border: 1px solid white; */
+    padding: 10px;
+    color: white;
+}
+
+.sidebar-directory > p{
+    margin: 10px;
+}
+
 
 .content{
     background-color: #334155;
