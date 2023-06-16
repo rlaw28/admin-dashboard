@@ -126,60 +126,19 @@ input{
 
 
 .content{
+    background-color: var(--main-color);
     grid-column: span 2;
     grid-row: span 2;
-    display: flex;
-    margin-top: 15px;
+    display: grid;
+    grid-template-columns: 2fr 2fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 7px;
+    grid-auto-flow: column;
 }
 
 .content > div {
-    background-color: var(--main-color);
-}
-
- .cards{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    grid-auto-flow: row;
-    gap: 15px;
-    width: 750px;
-    padding: 10px;
- }
- .cards > div {
+    background-color: var(--accent-color);
     border-radius: 7px;
-    background-color: white;
- }
- .cards > div > h4{
-    text-align: center;
-    font-size: large;
-    color: white;
-    background-color: var(--main-color);
-    padding: 7px;
- }
-
-
-.feed{
-    width: 438px;
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr;
-    justify-items: center;
-    gap: 15px;
-    padding: 10px;
 }
 
-
-.feed > div {
-    border-radius: 7px;
-    width: 300px;
-    background-color: white;
-
-}
-
-.feed > div > h4{
-    text-align: center;
-        font-size: large;
-        color: white;
-        background-color: #0284c7;
-        padding: 7px;
-}
+ 
