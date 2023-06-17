@@ -132,13 +132,26 @@ input{
     display: grid;
     grid-template-columns: 2fr 2fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
-    gap: 7px;
+    gap: 15px;
     grid-auto-flow: column;
 }
 
 .content > div {
     background-color: var(--accent-color);
-    border-radius: 7px;
+    border-top: 1px solid var(--accent-color);
+    border-left: 1px solid var(--accent-color);
+    border-right: 1px solid var(--accent-color);
+    border-radius: 10px;
 }
+
+.p-card h4,
+.announcements h4,
+.trending h4{
+   color: var(--accent-color);
+   background-color: var(--main-color);
+   text-align: center;
+   padding: 6px;
+}
+
 
  
