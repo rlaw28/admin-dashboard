@@ -21,6 +21,15 @@ button{
     width: 75px;
 }
 
+p{
+    padding: 10px;
+}
+
+
+a{
+    text-decoration: none;
+    color: var(--main-color);
+}
 
 ul{
     display: flex;
@@ -39,7 +48,7 @@ li:hover{
 }
 
 .main-container{
-    background-color: var(--main-color);
+    background-color: #020b21;
     height: 100vh;
     display: grid;
     grid-template-columns: 1fr 2fr 2fr;
@@ -126,7 +135,7 @@ input{
 
 
 .content{
-    background-color: var(--main-color);
+    background-color: #020b21;
     grid-column: span 2;
     grid-row: span 2;
     display: grid;
