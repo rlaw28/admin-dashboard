@@ -28,6 +28,7 @@ button{
 
 p{
     padding: 10px;
+    color: ;
 }
 
 
@@ -63,13 +64,19 @@ li:hover{
 
 .header{
     background-color: #0284c7;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
     grid-column: 2 / 4;
     padding: 15px;
-    justify-items: start;
-    align-items: center;
     margin-top: 20px;
     margin-inline: 10px;
     border-radius: 30px;
+}
+
+.top-header,
+.bottom-header{
+    display: flex;
+    justify-content: space-between;
 }
 
 .input-container > svg{
@@ -77,17 +84,14 @@ li:hover{
     margin-right: 10px;
 }
 
-.input-container{
-    display: flex;
-    flex-direction: row;
-}
-
 input{
   border-radius: 25px ;
   border-style: none;
   height: 5px;
-  width: 500px;
+  width: 400px;
   padding: 15px;
+  background-image: url(assets/magnify.svg);
+  background-repeat: no-repeat;
 }
 
 .welcome{
@@ -96,20 +100,11 @@ input{
     justify-self: center;
 }
 
-.buttons{
+.user-welcome,
+.button-container{
     align-self: end;
-    justify-self: end;
 }
 
-.user-info{
-    display: flex;
-    align-items: center;
-    justify-self: end;
-}
-.user-info > svg{
-    width: 30px;
-    margin-right: 10px;
-}
 
 .sidebar{
     background-color: var(--accent-color);
