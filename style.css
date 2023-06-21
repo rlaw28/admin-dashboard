@@ -26,11 +26,6 @@ button{
     width: 75px;
 }
 
-p{
-    padding: 10px;
-    color: ;
-}
-
 
 a{
     text-decoration: none;
@@ -146,7 +141,7 @@ input{
 }
 
 .content > div {
-    background-color: lightgrey;
+    background-color: #d6d3d1;
     border-radius: 10px;
     box-shadow: 2px 3px 3px gray;
     padding: 6px;
@@ -162,5 +157,24 @@ input{
    padding: 6px;
 }
 
+.p-card:hover{
+    box-shadow: 2px 2px 2px 1px #0284c7;
+}
 
+
+
+.announcements{
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+}
+.announcements h5, p{
+    text-align: center;
+    
+}
  
+.trending{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 5px;
+
+}
