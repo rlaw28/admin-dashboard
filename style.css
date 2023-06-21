@@ -105,9 +105,8 @@ input{
     background-color: var(--accent-color);
     grid-row: 1 / 4;
     display: grid;
-    grid-template-columns: 1fr;
     grid-template-rows: 60px 175px 150px;
-    gap: 15px;
+    gap: 35px;
     padding: 10px;
 }
 
@@ -177,4 +176,80 @@ input{
     grid-template-rows: 1fr 1fr 1fr 1fr;
     gap: 5px;
 
+}
+
+
+
+
+#home::before{
+    content: url(assets/home.svg);
+    color: white;
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    margin-right: 5px;
+}
+
+#account::before{
+    content: url(assets/account.svg);
+        display: inline-block;
+        width: 25px;
+        height: 25px;
+        margin-right: 5px;
+}
+
+#message::before{
+    content: url(assets/message.svg);
+        display: inline-block;
+        width: 25px;
+        height: 25px;
+        margin-right: 5px;
+}
+
+#history::before{
+    content: url(assets/history.svg);
+        display: inline-block;
+        width: 25px;
+        height: 25px;
+        margin-right: 5px;
+}
+
+#tasks::before{
+    content: url(assets/calendar-check.svg);
+        display: inline-block;
+        width: 25px;
+        height: 25px;
+        margin-right: 5px;
+}
+
+#communities::before{
+    content: url(assets/account-group.svg);
+        display: inline-block;
+        width: 25px;
+        height: 25px;
+        margin-right: 5px;
+}
+
+#settings::before{
+    content: url(assets/help.svg);
+        display: inline-block;
+        width: 25px;
+        height: 25px;
+        margin-right: 5px;
+}
+
+#support::before{
+    content: url(assets/help.svg);
+        display: inline-block;
+        width: 25px;
+        height: 25px;
+        margin-right: 5px;
+}
+
+#privacy::before{
+    content: url(assets/shield-check.svg);
+        display: inline-block;
+        width: 25px;
+        height: 25px;
+        margin-right: 5px;
 }
