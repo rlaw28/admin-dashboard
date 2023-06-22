@@ -14,11 +14,6 @@
 }
 
 
-img{
-    width: 25px;
-    height: 25px;
-}
-
 button{
     border-radius: 15px;
     border-style: none;
@@ -62,7 +57,7 @@ li:hover{
     display: grid;
     grid-template-rows: 1fr 1fr;
     grid-column: 2 / 4;
-    padding: 15px;
+    padding: 20px;
     margin-top: 20px;
     margin-inline: 10px;
     border-radius: 30px;
@@ -110,13 +105,24 @@ input{
     padding: 10px;
 }
 
+.link{
+    display: flex;
+    align-items: center;
+}
+.icon{
+        width: 25px;
+        height: 25px;
+        margin-inline: 5px;
+        filter: invert(100%);
+}
+
+
 #title{
   padding: 10px;
   color: var(--main-color);
 }
 
 .sidebar > div{
-    /* border: 1px solid white; */
     padding: 10px;
     color: white;
 }
@@ -175,81 +181,5 @@ input{
     display: grid;
     grid-template-rows: 1fr 1fr 1fr 1fr;
     gap: 5px;
-
-}
-
-
-
-
-#home::before{
-    content: url(assets/home.svg);
-    color: white;
-    display: inline-block;
-    width: 25px;
-    height: 25px;
-    margin-right: 5px;
-}
-
-#account::before{
-    content: url(assets/account.svg);
-        display: inline-block;
-        width: 25px;
-        height: 25px;
-        margin-right: 5px;
-}
-
-#message::before{
-    content: url(assets/message.svg);
-        display: inline-block;
-        width: 25px;
-        height: 25px;
-        margin-right: 5px;
-}
-
-#history::before{
-    content: url(assets/history.svg);
-        display: inline-block;
-        width: 25px;
-        height: 25px;
-        margin-right: 5px;
-}
-
-#tasks::before{
-    content: url(assets/calendar-check.svg);
-        display: inline-block;
-        width: 25px;
-        height: 25px;
-        margin-right: 5px;
-}
-
-#communities::before{
-    content: url(assets/account-group.svg);
-        display: inline-block;
-        width: 25px;
-        height: 25px;
-        margin-right: 5px;
-}
-
-#settings::before{
-    content: url(assets/help.svg);
-        display: inline-block;
-        width: 25px;
-        height: 25px;
-        margin-right: 5px;
-}
-
-#support::before{
-    content: url(assets/help.svg);
-        display: inline-block;
-        width: 25px;
-        height: 25px;
-        margin-right: 5px;
-}
-
-#privacy::before{
-    content: url(assets/shield-check.svg);
-        display: inline-block;
-        width: 25px;
-        height: 25px;
-        margin-right: 5px;
+    padding: 10px;
 }
