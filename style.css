@@ -168,8 +168,8 @@ input{
     grid-column: span 2;
     grid-row: span 2;
     display: grid;
-    grid-template-columns: 2fr 2fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 350px 350px 1fr;
+    grid-template-rows: 150px 150px 150px;
     gap: 15px;
     grid-auto-flow: column;
     padding: 20px;
@@ -197,14 +197,22 @@ input{
 }
 
 
-
 .announcements{
     overflow-y: scroll;
     scroll-behavior: smooth;
 }
 .announcements h5, p{
     text-align: center;
-    
+}
+
+.announcements h5{
+    color: darkblue;
+    font-weight: bolder;
+    letter-spacing: 1.5;
+    margin-block: 7px;
+}
+.announce-top{
+    margin-bottom: 7px;
 }
  
 .trending{
@@ -212,6 +220,7 @@ input{
     grid-template-rows: 1fr 1fr 1fr 1fr;
     gap: 5px;
     padding: 10px;
+    grid-row: -3 / -1;
 }
 
 .trend-user::before{
