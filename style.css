@@ -128,11 +128,6 @@ input{
 }
 
 
-.change-color{
-    fill: white;
-}
-
-
 .content{
     background-color: var(--main-color);
     grid-column: span 2;
@@ -182,4 +177,8 @@ input{
     grid-template-rows: 1fr 1fr 1fr 1fr;
     gap: 5px;
     padding: 10px;
+}
+
+.trend-user::before{
+    content: url(assets/user-profile-svgrepo-com.svg);
 }
