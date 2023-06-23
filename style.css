@@ -168,8 +168,8 @@ input{
     grid-column: span 2;
     grid-row: span 2;
     display: grid;
-    grid-template-columns: 350px 350px 1fr;
-    grid-template-rows: 150px 150px 150px;
+    grid-template-columns: 350px 350px 400px;
+    grid-template-rows: 175px 175px 150px;
     gap: 15px;
     grid-auto-flow: column;
     padding: 20px;
@@ -189,7 +189,6 @@ input{
    font-weight: bolder;
    text-decoration: underline;
    text-align: center;
-   padding: 6px;
 }
 
 .p-card:hover{
@@ -217,9 +216,10 @@ input{
  
 .trending{
     display: grid;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
-    gap: 5px;
-    padding: 10px;
+    grid-template-rows: 45px 1fr 1fr 1fr;
+    gap: 3px;
+    padding: 5px;
+    justify-content: center;
     grid-row: -3 / -1;
 }
 
